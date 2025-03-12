@@ -787,6 +787,7 @@ html, body {
     position: relative;
     transition: color 0.3s ease;
   }
+
 }
 @media (max-width: 480px) {
   .header__inner {
@@ -1743,6 +1744,9 @@ html, body {
   }
 }
 @media (max-width: 768px) {
+  .hero {
+    height: 100vh !important;
+  }
   .hero__title {
     font-size: 72px;
   }
